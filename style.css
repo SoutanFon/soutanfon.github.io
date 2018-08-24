@@ -1,0 +1,148 @@
+@media screen and (min-width:769px){
+    /*パソコン用のCSS*/
+
+    /*div要素のサイズ指定開始*/
+    .top{
+        height: 500px;
+    }
+    .introduction{
+        height: 500px;
+    }
+    .under{
+        height: 500px;
+    }
+    /*div要素サイズ指定終了*/
+    h1{
+        line-height: 20%;
+        font-size: 40px;
+        margin-bottom: -250px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    li{
+        font-size: 15px;
+    }
+    ul{
+        margin-bottom: 50px;
+    }
+    .make{
+        height: 500px;
+    }
+    .under{
+        height: 500px;
+    }
+    .SNS{
+        margin-bottom: -180px;
+    }
+    .footerul{
+        float: left;
+    }
+}
+@media screen and (max-width:768px){
+    /*タブレット用のCSS*/
+}
+@media screen and (max-width:640px){
+    /*スマホ用のCSS*/
+
+    /*div要素のサイズ指定開始*/
+    .top{
+        height: 400px;
+    }
+    .introduction{
+        height: 400px;
+    }
+    .under{
+        height: 400px;
+    }
+    /*div要素のサイズ指定終了*/
+    .title1{
+        margin-bottom: -200px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    .SNS{
+        margin-bottom: -170px;
+    }
+}
+@media screen and (max-width:640px){
+    /*640px以下のデバイス用のCSS*/
+}
+/*全て的応用CSS*/
+h1{
+    color:white;
+}
+h2{
+    text-align: center;
+    font-weight:bolder;
+}
+.top{
+    background-image: url(./image/top.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.title{
+    line-height: 200px;
+    text-align: center;
+
+}
+.title .title1{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.inline{
+    text-align: center;
+}
+ul{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+.t1{
+    position: absolute;
+    left:50%;
+    float: left;
+}
+.t2{
+    position: absolute;
+    left:50%;
+    float: left;
+}
+.url{
+   text-align: center;
+}
+.under{
+    background-image: url(./image/under.jpg);
+    background-size: cover;
+}
+.SNS{
+    color: white;
+}
+a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a:hover{
+    opacity: 0.5;
+}
+a:visited{
+    color:#f081;
+}
+.icon-twitter{
+    color:#55acee;
+}
+.github{
+    color: #000;
+}
+.icon-instaglam{
+    color: #000;
+}
+section{
+    text-align: center;
+    font-weight: bolder;
+}
